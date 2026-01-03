@@ -1,6 +1,6 @@
 # ProgII Educational Initiative
 
-This repository supports students in **Design and Implementation of Information Systems** with practice material (mock exams, tracing exercises) and a workflow that mirrors real software development.
+This repository supports students in **Programming with Java (II)** with practice material (mock exams, tracing exercises) and a workflow that mirrors real software development.
 
 The educational initiative is built around **three principles**:
 
