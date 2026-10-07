@@ -79,19 +79,23 @@ Good habits:
 
 ## Repository contents
 
-- `Exam.java`: Exam-style Java program for tracing (polymorphism, static/instance state, exceptions, strings, loops)
-- `Exam_Paper.md`: Formatted mock exam sheet based on `Exam.java`
+- `mock_exams.pdf`: Original exam paper (AUEB, D. Spinellis, February 2004) that inspired the tracing format
+- `Attempt01/Exam.java`: Exam-style Java program for tracing (polymorphism, static/instance state, exceptions, strings, loops)
+- `Attempt01/Exam_Paper.md`: Formatted mock exam sheet based on `Exam.java`
 
 ---
 
 ## How to compile and run
 
-From the repository root:
+From the repository root, move into the attempt folder first:
 
 ```bash
+cd Attempt01
 javac Exam.java
 java Exam
 ```
+
+The program intentionally prints nothing: the exam is about tracing the variables by hand.
 
 If your installed `java` runtime is older than your `javac`, compile with a target release compatible with your runtime (example: Java 8):
 
